@@ -1,0 +1,29 @@
+body {
+    background-image: url('https://img.freepik.com/vector-premium/fondo-futurista-abstracto-tecnologia-azul-brillante-marco-ciencia-ficcion-hud-ui_35887-668.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.titulo-contenedor {
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.btn-gradient {
+    background: linear-gradient(to right, navy, black);
+    color: white;
+}
